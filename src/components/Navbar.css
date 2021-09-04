@@ -1,4 +1,8 @@
 h1 {
   color: greenyellow;
 }
+h2 {
+  display: flex;
+  justify-content: space-between;
 
+}
