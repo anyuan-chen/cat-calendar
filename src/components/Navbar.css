@@ -1,1 +1,11 @@
 
+h1 {
+  color: greenyellow;
+}
+.navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-start;
+  list-style: none;
+}

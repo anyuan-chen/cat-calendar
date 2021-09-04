@@ -12,7 +12,7 @@ export default function Navbar() {
           />
           ;
         </div>
-        <div>
+        <div class="navigation">
           <Link to="/home">
             <h2>Home</h2>
           </Link>

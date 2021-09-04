@@ -9,9 +9,9 @@ export default function Events() {
         <h1>Event Builder</h1>
         <table>
           <tr>
-            <th>Company</th>
-            <th>Contact</th>
-            <th>Country</th>
+            <th>Task</th>
+            <th>Start Time</th>
+            <th>End Time</th>
           </tr>
           <tr>
             <td>Alfreds Futterkiste</td>
