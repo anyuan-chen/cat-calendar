@@ -1,4 +1,4 @@
-button {
+#habit {
     background-color: #CFB897;
     border: none;
     width: 69px;
@@ -7,7 +7,12 @@ button {
     border-radius: 100%;
 }
 
-button:hover {
+#habit:hover {
     box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.199), 0 17px 50px 0 rgba(0,0,0,0.19);
     background-color: #97784d;
+}
+
+#buttLabel {
+    position: relative;
+    color: black;
 }
