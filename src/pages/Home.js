@@ -4,7 +4,7 @@ export default function Home(props) {
   return (
     <div>
       <h1>{props.hello}</h1>
-      <img src={process.env.PUBLIC_URL + "/img/sample.jpeg"} />;
+      <img src={process.env.PUBLIC_URL + "homepage/img/public.jpeg"} />;
     </div>
   );
 }
