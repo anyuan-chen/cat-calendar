@@ -5,10 +5,10 @@ import Footer from "../components/Footer";
 
 export default function Schedule() {
   return (
-  <div>Schedule</div>
-
-
-
-
+    <div>
+        <Navbar></Navbar>
+        <div>Schedule</div>
+        <Footer></Footer>
+    </div>
   );
 }
