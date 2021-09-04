@@ -16,10 +16,14 @@ td {
 .container {
   display: flex;
   align-items: center;
+  justify-content: center;
   flex-direction: column;
   padding-top: 5em;
 }
-
+.form {
+  display: flex;
+  align-items: center;
+}
 th {
   padding: 10px 50px;
 }
