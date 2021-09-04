@@ -1,6 +1,8 @@
 import React from "react";
 import Navbar from "../components/Navbar";
 import "./Events.css";
+import Footer from "../components/Footer";
+
 export default function Events() {
   return (
     <div>
