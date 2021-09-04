@@ -3,7 +3,16 @@ import "./Navbar.css";
 export default function Navbar() {
   return (
     <div>
-      <h1>hellow</h1>
+      <nav>
+        <div>
+          <img></img>
+        </div>
+        <div>
+          <h2></h2>
+          <h2></h2>
+          <h2></h2>
+        </div>
+      </nav>
     </div>
   );
 }
