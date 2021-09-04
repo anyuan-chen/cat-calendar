@@ -1,6 +1,19 @@
 * {
   border-color: crimson;
 }
+h2 {
+  position: static;
+  width: 82.46px;
+  height: 42.38px;
+  left: calc(50% - 82.46px/2 + 159.2px);
+  top: calc(50% - 42.38px/2 - 5.15px);
+
+  font-family: Mondapick;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 27.4872px;
+  line-height: 26px;
+}
 .main {
   background-color: #FEEEF6;
 }
@@ -9,9 +22,11 @@
   flex-direction: row;
   justify-content: space-evenly;
   align-items: flex-start;
-  list-style: none;
+  
   background-color: #FEEEF6;
-  position: relative;
-  right: -200px;
-  top: -100px;
+  position: absolute;
+  width: 453.54px;
+  height: 52.68px;
+  left: calc(50% - 453.54px/2 + 428.77px);
+  top: 47px;
 }
