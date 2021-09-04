@@ -5,12 +5,12 @@ export default function Navbar() {
     <div>
       <nav>
         <div>
-          <img></img>
+          <img src="https://i.imgur.com/srCUbCA.png" alt="cat??"></img>
         </div>
         <div>
-          <h2></h2>
-          <h2></h2>
-          <h2></h2>
+          <h2>Habits</h2>
+          <h2>Events</h2>
+          <h2>Home</h2>
         </div>
       </nav>
     </div>
