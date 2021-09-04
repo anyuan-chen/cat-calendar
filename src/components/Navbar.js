@@ -6,7 +6,11 @@ export default function Navbar() {
     <div>
       <nav>
         <div>
-          <img src={process.env.PUBLIC_URL + "/img/Header cat.png"} alt="uh oh"/>;
+          <img
+            src={process.env.PUBLIC_URL + "/img/Header cat.png"}
+            alt="uh oh"
+          />
+          ;
         </div>
         <div>
           <Link to="/home">
@@ -15,7 +19,7 @@ export default function Navbar() {
           <Link to="/habits">
             <h2>Habits</h2>
           </Link>
-          <Link to="/habits">
+          <Link to="/events">
             <h2>Events</h2>
           </Link>
         </div>
