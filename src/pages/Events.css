@@ -2,6 +2,9 @@ table {
   border-collapse: collapse;
   table-layout: fixed;
   width: 75%;
+  --tw-space-y-reverse: 0;
+  margin-top: calc(2rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(2rem * var(--tw-space-y-reverse));
 }
 table,
 th,
@@ -19,4 +22,12 @@ td {
 
 th {
   padding: 10px 50px;
+}
+
+.w {
+  width: 30em;
+}
+
+h1 {
+  font-family: Mondapick;
 }

@@ -8,6 +8,9 @@ export default function Events() {
       <div className="container">
         <h1>Event Builder</h1>
         <table>
+          <colgroup>
+            <col class="w"></col>
+          </colgroup>
           <thead>
             <tr>
               <th>Task</th>
