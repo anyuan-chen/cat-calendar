@@ -1,8 +1,13 @@
-
 .navigation {
   display: flex;
   flex-direction: row;
-  justify-content: flex-end;
+  justify-content: space-evenly;
   align-items: flex-start;
-  list-style: none;
+  
+  background-color: #FEEEF6;
+  position: absolute;
+  width: 453.54px;
+  height: 52.68px;
+  left: calc(50% - 453.54px/2 + 428.77px);
+  top: 47px;
 }
