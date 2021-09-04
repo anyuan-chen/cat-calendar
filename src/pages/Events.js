@@ -32,11 +32,13 @@ export default function Events() {
   const [startTime, setStartTime] = useState("");
   const [endTime, setEndTime] = useState("");
   const [prevTasks, setPrevTasks] = useState([]);
+
   useEffect(() => {
     if (localStorage.tasks) {
       setPrevTasks(JSON.parse(localStorage.tasks));
     }
-  }, [localStorage]);
+  }, []);
+
   return (
     <form onSubmit={addToLocalStorage}>
       <Navbar></Navbar>
@@ -78,11 +80,14 @@ export default function Events() {
               </th>
             </tr>
             {prevTasks.map((task) => {
-              <Task
-                name={task.task}
-                start={task.startTime}
-                end={task.endTime}
-              ></Task>;
+              return (
+                <tr>
+                  <th>{task.task}</th>
+                  <th>{task.startTime}</th>
+                  <th>{task.endTime}</th>
+                </tr>
+                
+              )
             })}
           </tbody>
         </table>
