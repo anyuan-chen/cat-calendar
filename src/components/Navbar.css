@@ -1,10 +1,17 @@
-h1 {
-  color: greenyellow;
+* {
+  border-color: crimson;
+}
+.main {
+  background-color: #FEEEF6;
 }
 .navigation {
   display: flex;
   flex-direction: row;
-  justify-content: flex-end;
+  justify-content: space-evenly;
   align-items: flex-start;
   list-style: none;
+  background-color: #FEEEF6;
+  position: relative;
+  right: -200px;
+  top: -100px;
 }

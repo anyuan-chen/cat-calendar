@@ -5,7 +5,7 @@ export default function Navbar() {
   return (
     <div>
       <nav>
-        <div>
+        <div class="main">
           <img
             src={process.env.PUBLIC_URL + "/img/Header cat.png"}
             alt="uh oh"
