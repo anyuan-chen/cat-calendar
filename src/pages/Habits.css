@@ -7,8 +7,9 @@ h1 {
 h2  {
     text-align: center;
 }
-.main {
-    background-image: url("../backgrounds/Background Gradient.png");
+body {
+    background-color: white;
+    background-image: url('../gradient.png');
 }
 .class {
     background-color: white;
@@ -16,3 +17,12 @@ h2  {
 .header {
     font-weight: bold;
 }
+
+.selection {
+    display: flex;
+    flex-flow: row wrap;
+
+    justify-content: space-evenly;
+}
+
+
