@@ -17,7 +17,7 @@ export default function Events() {
             <td>Alfreds Futterkiste</td>
             <td>Maria Anders</td>
             <td>Germany</td>
-          </tr> 
+          </tr>
           <tr>
             <td>Centro comercial Moctezuma</td>
             <td>Francisco Chang</td>

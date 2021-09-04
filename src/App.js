@@ -4,6 +4,7 @@ import Home from "./pages/Home";
 import Schedule from "./pages/Schedule";
 import Habits from "./pages/Habits";
 import Events from "./pages/Events";
+
 function App() {
   return (
     <Router>
@@ -24,9 +25,7 @@ function App() {
         <Route
           exact
           path="/events"
-          render={() => {
-            <Events></Events>;
-          }}
+          render={() => <Events></Events>}
         ></Route>
       </Switch>
     </Router>
