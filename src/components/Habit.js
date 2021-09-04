@@ -6,9 +6,10 @@ export default function Habit(props) {
       
     <div>
         <button type="button">
-            <img src={props.img} />
+            <img src={props.img} alt="missing"/>
             <p>{props.name}</p>
         </button>
+        
     {/*
     the thing that was here before I experiment
     <tr>
