@@ -6,7 +6,7 @@ import Footer from "../components/Footer";
 
 export default function Habits() {
     return (
-        <div>
+        <div class="container">
             <Navbar></Navbar>
             <body class="body">
                 <h1 class="gnome">Habit Builder</h1>
