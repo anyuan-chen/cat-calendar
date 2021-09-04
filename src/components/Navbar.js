@@ -10,10 +10,11 @@ export default function Navbar() {
             href="/home"
             src={process.env.PUBLIC_URL + "/img/Header cat.png"}
             alt="uh oh"
-          /><a/>
+          />
+          <a />
         </div>
         <div class="navigation">
-          <Link to="/home">
+          <Link to="/">
             <h2>Home</h2>
           </Link>
           <Link to="/events">
