@@ -19,7 +19,7 @@ export default function Navbar() {
           <Link to="/habits">
             <h2>Habits</h2>
           </Link>
-          <Link to="/habits">
+          <Link to="/events">
             <h2>Events</h2>
           </Link>
         </div>
