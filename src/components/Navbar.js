@@ -23,6 +23,9 @@ export default function Navbar() {
           <Link to="/habits">
             <h2>Habits</h2>
           </Link>
+          <Link to="/schedule">
+            <h2>Schedule</h2>
+          </Link>
         </div>
       </nav>
     </div>
