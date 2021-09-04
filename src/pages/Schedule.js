@@ -7,7 +7,7 @@ export default function Schedule() {
   return (
     <div>
         <Navbar></Navbar>
-        <div>Schedule</div>
+        <h1 id="yourSchedule">Your Schedule</h1>
         <Footer></Footer>
     </div>
   );
