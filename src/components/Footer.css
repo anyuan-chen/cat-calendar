@@ -4,10 +4,11 @@
     padding: 0;
     background-color: #FEEEF6;
     
-  }
+}
+
 .copyright {
     text-align: center;
-    position: fixed;
+    position: absolute;
     bottom: 0px;
     left:34%;
 }
