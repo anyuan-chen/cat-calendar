@@ -4,6 +4,17 @@ table {
 table,
 th,
 td {
-  border: 1px solid black;
+  border: 3px solid black;
   font-family: Mondapick;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 5em;
+}
+
+th {
+  padding: 10px 50px;
 }
