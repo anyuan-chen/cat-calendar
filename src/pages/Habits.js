@@ -14,6 +14,7 @@ export default function Habits() {
             <div class="selection">
                 <Habit></Habit>
             </div>
+            <Footer></Footer>
         </div>
     )
 }
