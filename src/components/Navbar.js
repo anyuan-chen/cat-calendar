@@ -22,6 +22,9 @@ export default function Navbar() {
         <Link to="/habits" className="navlink">
           <h2>Habits</h2>
         </Link>
+        <Link to="/schedule" className="navlink">
+          <h2>Schedule</h2>
+        </Link>
       </div>
     </nav>
   );

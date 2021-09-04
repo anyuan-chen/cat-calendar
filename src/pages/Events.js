@@ -8,12 +8,20 @@ export default function Events() {
       <div className="container">
         <h1>Event Builder</h1>
         <table>
-          <tr>
-            <th>Task</th>
-            <th>Start Time</th>
-            <th>End Time</th>
-          </tr>
-          
+          <thead>
+            <tr>
+              <th>Task</th>
+              <th>Start Time</th>
+              <th>End Time</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th>hi</th>
+              <th>hi</th>
+              <th>hi</th>
+            </tr>
+          </tbody>
         </table>
       </div>
     </div>
