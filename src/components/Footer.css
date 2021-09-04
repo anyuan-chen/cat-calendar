@@ -1,7 +1,9 @@
 
-.copyright {
+* {
+    margin: 0;
+    padding: 0;
     background-color: #FEEEF6;
+  }
+.copyright {
     text-align: center;
-    padding: 0px;
-    margin: 0px;
 }
