@@ -5,7 +5,7 @@ import './Habits.css';
 
 export default function Habits() {
     return (
-        <div>
+        <div class="main">
             <Navbar></Navbar>
             <h1>Habit Builder</h1>
             <h2 class="header">Select a few of our pre-created habits to add to your schedule!</h2>
