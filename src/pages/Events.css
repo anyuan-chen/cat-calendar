@@ -35,3 +35,21 @@ th {
 h1 {
   font-family: Mondapick;
 }
+
+input {
+  border-radius: 0.25rem;
+  background: white;
+}
+
+button {
+  background-color: #ff9c9c;
+  color: white;
+  font-family: Poppins;
+  border-radius: 0.5rem;
+  font-weight: bold;
+  padding: 5px 40px;
+  font-size: large;
+  border: none;
+  margin-top: 50px;
+
+}
