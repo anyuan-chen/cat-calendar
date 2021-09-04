@@ -1,8 +1,10 @@
 h1 {
   color: greenyellow;
 }
-h2 {
+.navigation {
   display: flex;
-  justify-content: space-between;
-
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-start;
+  list-style: none;
 }
