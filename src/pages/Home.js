@@ -8,6 +8,7 @@ export default function Home(props) {
     <div>
       <Navbar></Navbar>
       <img src={process.env.PUBLIC_URL + "/img/homepage.jpeg"} />
+      <Footer></Footer>
     </div>
   );
 }
