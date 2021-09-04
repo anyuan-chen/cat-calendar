@@ -5,7 +5,7 @@ export default function Navbar() {
   return (
     <nav className="navbar">
       <div class="main">
-        <a href="/home">
+        <a href="/">
           <img
             src={process.env.PUBLIC_URL + "/img/Header cat.png"}
             alt="uh oh"
@@ -21,6 +21,9 @@ export default function Navbar() {
         </Link>
         <Link to="/habits" className="navlink">
           <h2>Habits</h2>
+        </Link>
+        <Link to="/schedule" className="navlink">
+          <h2>Schedule</h2>
         </Link>
       </div>
     </nav>

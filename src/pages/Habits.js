@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from '../components/Navbar';
 import Habit from '../components/Habit';
 import './Habits.css';
+import Footer from "../components/Footer";
 
 export default function Habits() {
     return (
@@ -13,6 +14,7 @@ export default function Habits() {
             <div class="selection">
                 <Habit></Habit>
             </div>
+            <Footer></Footer>
         </div>
     )
 }
