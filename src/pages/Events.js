@@ -29,6 +29,7 @@ export default function Events() {
             </tbody>
           </table>
       </div>
+      <Footer></Footer>
     </form>
   );
 }
