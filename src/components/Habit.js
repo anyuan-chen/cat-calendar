@@ -5,9 +5,9 @@ export default function Habit(props) {
   return (
       
     <div>
-        <button type="button">
-            <img src={props.img} alt="missing"/>
-            <p>{props.name}</p>
+        <button type="button" id="habit">
+            <img src={process.env.PUBLIC_URL + props.img} alt="missing"/> 
+            <p id="buttLabel">{props.name}</p>
         </button>
         
     {/*

@@ -1,27 +1,22 @@
-img {
-    max-width: 100vw;
-}
-h1 {
+ .gnome {
     text-align: center;
 }
-h2  {
-    text-align: center;
-}
-body {
+.body {
     background-color: white;
     background-image: url('../backgrounds/gradient.png');
+    max-width: 100vw;
 }
 .class {
     background-color: white;
 }
 .header {
     font-weight: bold;
+    text-align: center;
 }
 
 .selection {
     display: flex;
     flex-flow: row wrap;
-
     justify-content: space-evenly;
 }
 
