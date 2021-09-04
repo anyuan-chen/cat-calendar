@@ -88,6 +88,7 @@ export default function Events() {
         </table>
         <button type="submit">Add</button>
       </div>
+      <Footer></Footer>
     </form>
   );
 }
