@@ -2,7 +2,6 @@ import React, { useState, useEffect } from "react";
 import Navbar from "../components/Navbar";
 import "./Events.css";
 import Footer from "../components/Footer";
-import Task from "../components/Task";
 
 export default function Events() {
   const addToLocalStorage = (event) => {
@@ -27,6 +26,10 @@ export default function Events() {
       });
       localStorage.setItem("tasks", JSON.stringify(storedTasks));
     }
+    setPrevTasks(JSON.parse(localStorage.tasks));
+    setTask("");
+    setStartTime("");
+    setEndTime("");
   };
   const [task, setTask] = useState("");
   const [startTime, setStartTime] = useState("");
@@ -86,8 +89,7 @@ export default function Events() {
                   <th>{task.startTime}</th>
                   <th>{task.endTime}</th>
                 </tr>
-                
-              )
+              );
             })}
           </tbody>
         </table>
