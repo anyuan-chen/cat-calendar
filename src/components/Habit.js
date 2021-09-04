@@ -1,4 +1,6 @@
 import React from "react";
+import { Link } from "react-router-dom";
+import "./Habit.css";
 
 export default function Habit(props) {
   return (
