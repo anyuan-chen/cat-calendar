@@ -1,15 +1,49 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Navbar from "../components/Navbar";
 import "./Events.css";
 import Footer from "../components/Footer";
 
 export default function Events() {
+  const addToLocalStorage = (event) => {
+    event.preventDefault();
+    if (!localStorage.tasks) {
+      localStorage.setItem(
+        "tasks",
+        JSON.stringify([
+          {
+            task: task,
+            startTime: startTime,
+            endTime: endTime,
+          },
+        ])
+      );
+    } else {
+      let storedTasks = JSON.parse(localStorage.tasks);
+      storedTasks.push({
+        task: task,
+        startTime: startTime,
+        endTime: endTime,
+      });
+      localStorage.setItem("tasks", JSON.stringify(storedTasks));
+    }
+    setPrevTasks(JSON.parse(localStorage.tasks));
+    setTask("");
+    setStartTime("");
+    setEndTime("");
+  };
   const [task, setTask] = useState("");
   const [startTime, setStartTime] = useState("");
   const [endTime, setEndTime] = useState("");
+  const [prevTasks, setPrevTasks] = useState([]);
+
+  useEffect(() => {
+    if (localStorage.tasks) {
+      setPrevTasks(JSON.parse(localStorage.tasks));
+    }
+  }, []);
 
   return (
-    <form onSubmit={() => {}}>
+    <form onSubmit={addToLocalStorage}>
       <Navbar></Navbar>
       <div className="container">
         <h1>Event Builder</h1>
@@ -48,6 +82,15 @@ export default function Events() {
                 ></input>
               </th>
             </tr>
+            {prevTasks.map((task) => {
+              return (
+                <tr>
+                  <th>{task.task}</th>
+                  <th>{task.startTime}</th>
+                  <th>{task.endTime}</th>
+                </tr>
+              );
+            })}
           </tbody>
         </table>
         <button type="submit">Add</button>
