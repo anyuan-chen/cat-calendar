@@ -15,18 +15,8 @@ function App() {
           path="/schedule"
           render={() => <Schedule></Schedule>}
         ></Route>
-        <Route
-          exact
-          path="/habits"
-          render={() => {
-            <Habits></Habits>;
-          }}
-        ></Route>
-        <Route
-          exact
-          path="/events"
-          render={() => <Events></Events>}
-        ></Route>
+        <Route exact path="/habits" render={() => <Habits></Habits>}></Route>
+        <Route exact path="/events" render={() => <Events></Events>}></Route>
       </Switch>
     </Router>
   );
