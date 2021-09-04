@@ -5,7 +5,7 @@ export default function Events() {
   return (
     <div>
       <Navbar></Navbar>
-      <div>
+      <div className="container">
         <h1>Event Builder</h1>
         <table>
           <tr>
