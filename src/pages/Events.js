@@ -3,7 +3,6 @@ import Navbar from "../components/Navbar";
 import "./Events.css";
 import Footer from "../components/Footer";
 
-
 export default function Events() {
   const [task, setTask] = useState("");
   const [startTime, setStartTime] = useState("");
