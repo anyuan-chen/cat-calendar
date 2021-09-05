@@ -41,6 +41,7 @@
 } */
 .times {
   font-weight: normal; /*i want fonts but idk how*/
+  text-align:center;
 }
 
 .iNeedAChiropractorSoBad {
@@ -74,10 +75,10 @@
 
 #kittycatcat {
   position: absolute;
-  min-width: 90vw;
+  min-width: 85vw;
   top: 45.9%;
   z-index: 10;
-  left: 5%;
+  left: 7.33%;
 }
 
 #cat {
