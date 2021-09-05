@@ -55,9 +55,17 @@
 #baseContainer {
   display: grid;
   grid-template-rows: repeat(3, minmax(0, 1fr));
-
   width: 70vw;
   grid-row-gap: 50px;
+}
+#largerContainer {
+  width: 80vw;
+  height: 40vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #FEEEEE;
+  border-radius: 20px;
 }
 /* 
 #textInstructions {
