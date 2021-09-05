@@ -1,12 +1,9 @@
-.container {
+* {
+   
 }
 #habit {
-    background-color: #CFB897;
     border: none;
-    width: 69px; 
-    height: 100px; 
-    transition-duration: 0.2s;
-    border-radius: 100%;
+    background: transparent;
 }
 
 #habit:hover {
@@ -15,15 +12,5 @@
 }
 
 #buttLabel {
-    position: relative;
     color: black;
-}
-#icon {
-    
-}
-.body {
-    position: absolute;
-    top:20%;
-    width: 100vw;
-    height: 100vh;
 }
