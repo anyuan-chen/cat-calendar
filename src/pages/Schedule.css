@@ -48,9 +48,13 @@
 
 #textInstructions {
   list-style-type: none;
-  display: table;
-  table-layout: fixed;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
 }
 #textInstructions > li {
-  display: table-cell;
+  display: block;
+  --tw-space-x-reverse: 0;
+  margin-right: calc(3rem * var(--tw-space-x-reverse));
+  margin-left: calc(3rem * calc(1 - var(--tw-space-x-reverse)));
 }
