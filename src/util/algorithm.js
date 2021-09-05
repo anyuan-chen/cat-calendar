@@ -38,10 +38,10 @@ const schedule = (habits, tasks) => {
   //cuz ur about to just straight up not have a good time ngl
 
   for (const habit of habits) {
-    for (let i = 32; i < 70; i++) {
-      let decision = Math.random();
-      if (schedule[i] === "" && decision > 0.5) {   
-        schedule[i] = habit.name;
+    while (true) {
+      let decision = Math.floor(Math.random() * 48) + 32;
+      if (schedule[decision]) {
+        schedule[decision] = habit.name;
         break;
       }
     }
