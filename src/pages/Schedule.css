@@ -1,12 +1,11 @@
-/* #yourSchedule {
-  position: absolute;
-  top: 20%;
-  left: 43.5%;
-  background-color: transparent;
-} */
+#yourSchedule {
+  text-align: center;
+  font-weight: bold;
+  font-size: 400%;
+}
 #dottedLine {
   position: absolute;
-  top: 43.4%;
+  top: 60%;
   left: 5%;
   z-index: 1;
   width: 90vw;
@@ -38,6 +37,9 @@
   margin-right: calc(3rem * var(--tw-space-x-reverse));
   margin-left: calc(3rem * calc(1 - var(--tw-space-x-reverse)));
 } */
+.times {
+  font-weight: normal; /*i want fonts but idk how*/
+}
 
 .iNeedAChiropractorSoBad {
   display: flex;
@@ -61,6 +63,19 @@
   justify-content: center;
   background-color: #FEEEEE;
   border-radius: 20px;
+}
+
+#scrolling {
+  animation: marquee 43200s linear infinite;
+  overflow: hidden;
+}
+
+#kittycatcat {
+  position: absolute;
+  min-width:90vw;
+  top:49.9%;
+  z-index:10;
+  left: 5%;
 }
 /* 
 #textInstructions {
