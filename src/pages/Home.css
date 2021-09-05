@@ -1,8 +1,9 @@
 img {
   max-width: 100vw;
   max-height: 50vw;
+  border: solid red;
+  position: absolute;
 }
-
 #um {
   overflow: hidden;
 }
