@@ -6,5 +6,7 @@
 }
 
 #title {
+    display: flex;
+    justify-content: center;
     text-align: center; /*aha this is not working*/
 }
