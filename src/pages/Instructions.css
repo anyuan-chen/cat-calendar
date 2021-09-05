@@ -1,0 +1,10 @@
+#farts {
+    position:absolute;
+    top:10vw;
+    min-width: 100vw;
+    z-index:-10;
+}
+
+#title {
+    text-align: center; /*aha this is not working*/
+}
