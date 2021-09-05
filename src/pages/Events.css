@@ -33,7 +33,8 @@ h1 {
 
 #eventsTextInput {
   border-radius: 0.25rem;
-  background: white;
+  background: "../img/background.png";
+
 }
 
 #eventsSubmitButton {
@@ -49,4 +50,9 @@ h1 {
   padding-right: 50px;
   padding-top: 0;
   text-align: center;
+}
+
+#Footer {
+  bottom:0;
+  top:100%;
 }

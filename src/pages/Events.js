@@ -43,65 +43,66 @@ export default function Events() {
   }, []);
 
   return (
-    <form onSubmit={addToLocalStorage}>
+    <div>
       <Navbar></Navbar>
-
-      <div className="containerEvents">
-        <h1>Event Builder</h1>
-        <table>
-          <colgroup>
-            <col class="w"></col>
-          </colgroup>
-          <thead>
-            <tr>
-              <th>Task</th>
-              <th>Start Time</th>
-              <th>End Time</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <th>
-                <input
-                  type="text"
-                  value={task}
-                  onChange={(e) => setTask(e.target.value)}
-                  id="eventsTextInput"
-                ></input>
-              </th>
-              <th>
-                <input
-                  type="text"
-                  value={startTime}
-                  onChange={(e) => setStartTime(e.target.value)}
-                  id="eventsTextInput"
-                ></input>
-              </th>
-              <th>
-                <input
-                  type="text"
-                  value={endTime}
-                  onChange={(e) => setEndTime(e.target.value)}
-                  id="eventsTextInput"
-                ></input>
-              </th>
-            </tr>
-            {prevTasks.map((task) => {
-              return (
-                <tr>
-                  <th>{task.task}</th>
-                  <th>{task.startTime}</th>
-                  <th>{task.endTime}</th>
-                </tr>
-              );
-            })}
-          </tbody>
-        </table>
-        <button id="eventsSubmitButton" type="submit">
-          Add
-        </button>
-      </div>
-      <Footer></Footer>
-    </form>
+      <form onSubmit={addToLocalStorage}>
+        <div className="containerEvents">
+          <h1>Event Builder</h1>
+          <table>
+            <colgroup>
+              <col class="w"></col>
+            </colgroup>
+            <thead>
+              <tr>
+                <th>Task</th>
+                <th>Start Time</th>
+                <th>End Time</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th>
+                  <input
+                    type="text"
+                    value={task}
+                    onChange={(e) => setTask(e.target.value)}
+                    id="eventsTextInput"
+                  ></input>
+                </th>
+                <th>
+                  <input
+                    type="text"
+                    value={startTime}
+                    onChange={(e) => setStartTime(e.target.value)}
+                    id="eventsTextInput"
+                  ></input>
+                </th>
+                <th>
+                  <input
+                    type="text"
+                    value={endTime}
+                    onChange={(e) => setEndTime(e.target.value)}
+                    id="eventsTextInput"
+                  ></input>
+                </th>
+              </tr>
+              {prevTasks.map((task) => {
+                return (
+                  <tr>
+                    <th>{task.task}</th>
+                    <th>{task.startTime}</th>
+                    <th>{task.endTime}</th>
+                  </tr>
+                );
+              })}
+            </tbody>
+          </table>
+          <button id="eventsSubmitButton" type="submit">
+            Add
+          </button>
+        </div>
+      </form>
+      <Footer id="Footer"></Footer>
+    </div>
   );
 }

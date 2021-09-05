@@ -3,14 +3,22 @@ import "./Habit.css";
 
 export default function Habit(props) {
   const [selected, setSelected] = useState(false);
-
+  const POKEMONGO = () => {
+    setSelected(!selected);
+    if (!localStorage.habits) {
+      localStorage.setItem("habits", JSON.stringify([]));
+    }
+    let habits = JSON.parse(localStorage.habits);
+    habits.push({ name: props.name });
+    localStorage.setItem("habits", JSON.stringify(habits));
+  };
   return (
     <div class="container">
       <button
         type="button"
         id="habit"
         className={selected ? "clicked" : "notClicked"}
-        onClick={() => setSelected(!selected)}
+        onClick={POKEMONGO}
       >
         <img
           class="icon"
