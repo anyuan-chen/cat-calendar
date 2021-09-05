@@ -7,7 +7,6 @@
   background-color: white;
   background-image: url("../backgrounds/gradient.png");
   height: 100vh;
-  
 }
 .class {
   background-color: white;
@@ -15,11 +14,17 @@
 .header {
   font-weight: bold;
   text-align: center;
+  border: solid red;
+  max-height: 4vh;
+  padding: 0px;
 }
 
 .header2 {
+  justify-content:center;
   text-align: center;
   font-weight: lighter;
+  margin-top: 10%;
+  border: solid red;
 }
 
 .selection {
