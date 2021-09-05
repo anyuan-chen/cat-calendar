@@ -38,9 +38,9 @@ const schedule = (habits, tasks) => {
   //cuz ur about to just straight up not have a good time ngl
 
   for (const habit of habits) {
-    let number = Math.floor(Math.random() * 96);
+    let number = Math.floor(Math.random() * 32 + Math.random() * 48 );
     while (schedule[number] !== "") {
-      number = Math.floor(Math.random() * 96);
+      number = Math.floor(Math.random() * 32 + Math.random() * 48 );
     }
     schedule[number] = habit.name;
   }
