@@ -29,7 +29,7 @@ export default function Schedule() {
       <Navbar></Navbar>
       <div class="iNeedAChiropractorSoBad">
         <h1 id="yourSchedule">Your Schedule</h1>
-        <div>
+        <div id ="largerContainer">
           {/* {<img
             id="path"
             src="/img/rectanglePath.png"
