@@ -52,7 +52,14 @@ h1 {
   text-align: center;
 }
 
+<<<<<<< HEAD
 #Footer {
   bottom:0;
   top:100%;
 }
+=======
+#pepelaugh{
+  display: flex;
+  flex-direction: column;
+}
+>>>>>>> be571170ebcc476592a30880ec8532ab87fd92da
