@@ -21,16 +21,6 @@ td {
   flex-direction: column;
   padding-top: 5em;
 }
-#backgroundarooni {
-  width: 100vw;
-}
-.form {
-  display: flex;
-  align-items: center;
-}
-th {
-  padding: 10px 50px;
-}
 
 .w {
   width: 30em;
@@ -40,12 +30,12 @@ h1 {
   font-family: Mondapick;
 }
 
-input {
+#eventsTextInput {
   border-radius: 0.25rem;
   background: white;
 }
 
-#button {
+#eventsSubmitButton {
   background-color: #ff9c9c;
   color: white;
   font-family: Poppins;
