@@ -35,6 +35,23 @@ export default function Schedule() {
           <div>
             <img id="dottedLine" src="/img/dotted line.png" alt="dotted line" />
           </div>
+          <div id="times">
+            <ul>
+              
+            <label input type="text">8AM</label>
+            <label input type="text">9AM</label>
+            <label input type="text">10AM</label>
+            <label input type="text">11AM</label>
+            <label input type="text">12PM</label>
+            <label input type="text">1PM</label>
+            <label input type="text">2PM</label>
+            <label input type="text">3PM</label>
+            <label input type="text">4PM</label>
+            <label input type="text">5PM</label>
+            <label input type="text">6PM</label>
+            <label input type="text">7PM</label>
+            <label input type="text">8PM</label>
+          </div>
         </div>
       </div>
 
