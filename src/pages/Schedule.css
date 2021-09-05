@@ -50,7 +50,7 @@
 #baseContainer {
   display: grid;
   grid-template-rows: repeat(3, minmax(0, 1fr));
-  width: 70vw;
+  width: 85vw;
   grid-row-gap: 50px;
 }
 #largerContainer {
