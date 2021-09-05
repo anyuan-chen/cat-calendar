@@ -10,7 +10,7 @@ export default function Instructions() {
             <img id="farts" src={process.env.PUBLIC_URL + "/img/background.png"} alt="background"/>
             <body>
                 <h1 id="title">How to use Cat Calendar</h1>
-                <h3>Cat Calendar is your adorable companion for practicing good habits, planning out your day, and more. We help you create a schedule within 3 simple sections. Input your information and enjoy!</h3>
+                <h3 id="subtitle">Cat Calendar is your adorable companion for practicing good habits, planning out your day, and more. We help you create a schedule within 3 simple sections. Input your information and enjoy!</h3>
                 <div>
                     <div> 
                         <h1 class="title">Events</h1>
