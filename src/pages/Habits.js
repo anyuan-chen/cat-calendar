@@ -12,11 +12,12 @@ export default function Habits() {
         <h1 class="gnome">Habit Builder</h1>
         <div class="central-utility-mechanism">
           <h2 class="header">
-            Select a few of our pre-created habits to add to your schedule!
+            Select a few of our pre-created habits to add to your schedule! Each
+            habit will take up an hour.
           </h2>
-          <h2 class="header2">Each habit will take up an hour.</h2>
+          {/* <h2 class="header2">Each habit will take up an hour.</h2> */}
         </div>
-        
+
         <div class="selection">
           <div class="row1">
             <Habit
@@ -24,16 +25,8 @@ export default function Habits() {
               name="Game"
               img="/img/Gaming.png"
             ></Habit>
-            <Habit
-              className="activity"
-              name="Read"
-              img="/img/Book.png"
-            ></Habit>
-            <Habit
-              className="activity"
-              name="Chat"
-              img="/img/Chat.png"
-            ></Habit>
+            <Habit className="activity" name="Read" img="/img/Book.png"></Habit>
+            <Habit className="activity" name="Chat" img="/img/Chat.png"></Habit>
             <Habit
               className="activity"
               name="Clean"
@@ -66,21 +59,13 @@ export default function Habits() {
               name="Organize"
               img="/img/Organize.png"
             ></Habit>
-            <Habit
-              className="activity"
-              name="Nap"
-              img="/img/Sleep.png"
-            ></Habit>
+            <Habit className="activity" name="Nap" img="/img/Sleep.png"></Habit>
             <Habit
               className="activity"
               name="Snack"
               img="/img/Snack.png"
             ></Habit>
-            <Habit
-              className="activity"
-              name="Walk"
-              img="/img/Walk.png"
-            ></Habit>
+            <Habit className="activity" name="Walk" img="/img/Walk.png"></Habit>
             <Habit
               className="activity"
               name="Wash Hands"
@@ -96,11 +81,7 @@ export default function Habits() {
               name="Youtube"
               img="/img/youtube.png"
             ></Habit>
-            <Habit
-              className="activity"
-              name="Draw"
-              img="/img/Draw.png"
-            ></Habit>
+            <Habit className="activity" name="Draw" img="/img/Draw.png"></Habit>
           </div>
         </div>
         <Footer></Footer>
