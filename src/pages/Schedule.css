@@ -75,9 +75,13 @@
 #kittycatcat {
   position: absolute;
   min-width: 90vw;
-  top: 49.9%;
+  top: 45.9%;
   z-index: 10;
   left: 5%;
+}
+
+#cat {
+  min-height :17vh;
 }
 /* 
 #textInstructions {
