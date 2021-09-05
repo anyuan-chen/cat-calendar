@@ -1,6 +1,4 @@
-* {
-  padding: 0;
-}
+
 #habit {
   border: none;
   background: transparent;
@@ -23,4 +21,9 @@
     0 17px 50px 0 rgba(0, 0, 0, 0.19);
   background-color: #97784d;
   border-radius: 50%;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
