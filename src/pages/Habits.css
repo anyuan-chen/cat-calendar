@@ -22,6 +22,10 @@
 .header2 {
   justify-content:center;
   text-align: center;
+<<<<<<< HEAD
+=======
+  margin-top: 10%;
+>>>>>>> 6af9e46911bfa60d8879ae5effe608770de5757f
   font-weight: normal;
 }
 
@@ -49,5 +53,5 @@
 .central-utility-mechanism {
   display: flex;
   justify-content: center;
-  padding: 10px;
+  flex-direction: column;
 }
