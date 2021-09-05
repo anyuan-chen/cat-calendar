@@ -2,11 +2,12 @@
 }
 #yourSchedule {
     position: absolute;
-    top: 190px;
+    top: 160px;
     left: 43.5%;
     background-color: transparent;
 }
 #dottedLine {
     position:absolute;
-    top: 200px;
+    top: 50%;
+    
 }
