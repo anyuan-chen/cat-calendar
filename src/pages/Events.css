@@ -13,8 +13,7 @@ td {
   font-family: Mondapick;
 }
 
-.container {
-  position: absolute;
+.containerEvents {
   top: 10%;
   display: flex;
   align-items: center;
