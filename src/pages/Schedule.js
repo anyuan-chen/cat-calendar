@@ -38,9 +38,13 @@ export default function Schedule() {
           />} */}
           <div id="baseContainer">
             <div id="textInstructions">
-              {
-
-              }
+              {schedule.map((task) => {
+                if (task === "") {
+                  return <li></li>;
+                } else {
+                  return <li>{task}</li>;
+                }
+              })}
             </div>
             <img id="dottedLine" src="/img/dotted line.png" alt="dotted line" />
             <div id="times">
