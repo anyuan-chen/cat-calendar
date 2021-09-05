@@ -100,6 +100,7 @@ export default function Events() {
           <input class="icbm" type="image" src={process.env.PUBLIC_URL + "/img/Submit_button.png"} alt="Submit"></input>
         </div>
       </form>
+      <img id="throwitback" src={process.env.PUBLIC_URL + "/img/background.png"} alt="background"/>
       <Footer id="Footer"></Footer>
     </div>
   );
