@@ -29,12 +29,8 @@ export default function Schedule() {
       <Navbar></Navbar>
       <div class="iNeedAChiropractorSoBad">
         <h1 id="yourSchedule">Your Schedule</h1>
-        <div id ="largerContainer">
-          {/* {<img
-            id="path"
-            src="/img/rectanglePath.png"
-            alt="pink rectangle path"
-          />} */}
+        <div id="largerContainer">
+
           <div id="baseContainer">
             <div class="times" id="rowOneSchedule">
               {schedule.map((task) => {

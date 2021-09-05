@@ -1,13 +1,13 @@
 /* #yourSchedule {
   position: absolute;
-  top: 160px;
+  top: 20%;
   left: 43.5%;
   background-color: transparent;
 } */
-/* #dottedLine {
+#dottedLine {
   position: absolute;
   top: 52.4%;
-  left: 3.305%;
+  left: 4%;
   z-index: 1;
   width: 93vw;
   height: 6px;
@@ -17,7 +17,7 @@
   position: absolute;
   top: 30%;
   left: 3.3%;
-} */
+}
 
 .times {
   display: grid;
