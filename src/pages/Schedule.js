@@ -19,6 +19,7 @@ export default function Schedule() {
     if (tasks && habits) {
       scheduleArray = algorithm(habits, tasks);
     }
+    scheduleArray = scheduleArray.slice(32, 80);
     setSchedule(scheduleArray);
     console.log(scheduleArray);
   }, []);
@@ -36,7 +37,15 @@ export default function Schedule() {
             alt="pink rectangle path"
           />} */}
           <div id="baseContainer">
-            <div id="textInstructions"></div>
+            <div id="textInstructions">
+              {schedule.map((task) => {
+                if (task === "") {
+                  return <li></li>;
+                } else {
+                  return <li>{task}</li>;
+                }
+              })}
+            </div>
             <img id="dottedLine" src="/img/dotted line.png" alt="dotted line" />
             <div id="times">
               <h3 input type="text">
