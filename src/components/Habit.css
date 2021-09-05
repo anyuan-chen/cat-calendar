@@ -18,5 +18,9 @@
 #buttLabel {
     position: relative;
     color: black;
-    text-align: center;
+}
+.body {
+    position: absolute;
+    top:20%;
+    width: 100vw;
 }
