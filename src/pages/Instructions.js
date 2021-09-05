@@ -4,10 +4,15 @@ import "./Instructions.css";
 import Footer from "../components/Footer";
 
 export default function Instructions() {
-    return (
-        <div>
-            <Navbar></Navbar>
-            <img id="farts" src={process.env.PUBLIC_URL + "/img/background.png"} alt="background"/>
+  return (
+    <div>
+      <Navbar></Navbar>
+      <img
+        id="page"
+        src={process.env.PUBLIC_URL + "/img/instruction.png"}
+        alt="background"
+      />
+      {/* 
             <body>
                 <h1 id="title">How to use Cat Calendar</h1>
                 <h3 id="subtitle">Cat Calendar is your adorable companion for practicing good habits, planning out your day, and more. We help you create a schedule within 3 simple sections. Input your information and enjoy!</h3>
@@ -31,8 +36,8 @@ export default function Instructions() {
                         <h2 id="c">Check our your Schedule and enjoy the cats!</h2>
                     </div>
                 </div>
-            </body>
-            <Footer></Footer>
-        </div>
-    );
+            </body> */}
+      <Footer></Footer>
+    </div>
+  );
 }
