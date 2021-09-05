@@ -2,11 +2,11 @@
   margin: 0;
   padding: 0;
   background-color: #feeef6;
-  display: flex;
-  justify-content: center;
   bottom:0px;
-  border:solid red;
   position:absolute;
+  text-align: center;
+  min-width:100vw;
+  max-height:70px;
 }
 
 .copyright {
