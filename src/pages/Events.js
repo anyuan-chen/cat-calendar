@@ -45,6 +45,7 @@ export default function Events() {
   return (
     <form onSubmit={addToLocalStorage}>
       <Navbar></Navbar>
+      <img id="backgroundarooni" src="../img/background.png"/>
       <div className="container">
         <h1>Event Builder</h1>
         <table>
