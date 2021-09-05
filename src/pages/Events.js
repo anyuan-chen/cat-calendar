@@ -93,7 +93,7 @@ export default function Events() {
             })}
           </tbody>
         </table>
-        <button type="submit">Add</button>
+        <button id="button"type="submit">Add</button>
       </div>
       <Footer></Footer>
     </form>
