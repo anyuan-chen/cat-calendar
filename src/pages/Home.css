@@ -2,7 +2,11 @@ img {
   max-width: 100vw;
   max-height: 50vw;
 }
-
 #um {
   overflow: hidden;
+}
+#kitty {
+  position:absolute;
+  z-index: -1;
+  top: 65px;
 }
