@@ -35,11 +35,15 @@
 }
 
 .activity {
-  padding-left: 50px;
-  padding-right: 50px;
+  padding-left: 70px;
+  padding-right: 70px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .central-utility-mechanism {
   display: flex;
   justify-content: center;
+  padding-left: 70px;
+  padding-right: 70px;
 }

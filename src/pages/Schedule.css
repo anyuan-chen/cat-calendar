@@ -19,16 +19,30 @@
   left: 3.3%;
 } */
 
-#times {
-  display: flex;
-  flex-direction: row;
+.times {
+  display: grid;
+  grid-template-columns: repeat(13, minmax(0, 1fr));
 }
 
-#times > * {
+#rowOneSchedule {
+  grid-row-start: 1;
+  grid-row-end: 2;
+  font-size: small;
+}
+#rowTwoSchedule {
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+#rowThreeSchedule {
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+
+/* .times > * {
   --tw-space-x-reverse: 0;
   margin-right: calc(3rem * var(--tw-space-x-reverse));
   margin-left: calc(3rem * calc(1 - var(--tw-space-x-reverse)));
-}
+} */
 
 .iNeedAChiropractorSoBad {
   display: flex;
@@ -39,22 +53,25 @@
 }
 
 #baseContainer {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-}
+  display: grid;
+  grid-template-rows: repeat(3, minmax(0, 1fr));
 
+  width: 70vw;
+  grid-row-gap: 50px;
+}
+/* 
 #textInstructions {
   list-style-type: none;
   display: flex;
   flex-direction: row;
   width: 100%;
+  margin: 0;
+  padding: 0;
 }
 #textInstructions > li {
-  display: block;
+  display: flex;
+  text-align: center;
   --tw-space-x-reverse: 0;
   margin-right: calc(3rem * var(--tw-space-x-reverse));
   margin-left: calc(3rem * calc(1 - var(--tw-space-x-reverse)));
-}
+} */
