@@ -16,3 +16,8 @@
     position: relative;
     color: black;
 }
+.body {
+    position: absolute;
+    top:20%;
+    width: 100vw;
+}
