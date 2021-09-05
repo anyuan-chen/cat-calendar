@@ -12,28 +12,29 @@ export default function Habits() {
         <h1 class="gnome">Habit Builder</h1>
         <h2 class="header">
           Select a few of our pre-created habits to add to your schedule!
+          <h3 class="header2">Each habit will take up an hour.</h3>
         </h2>
-        <h2 class="header2">Each habit will take up an hour.</h2>
+        
         <div class="selection">
           <div class="row1">
             <Habit
               className="activity"
-              name="Gaming"
+              name="Game"
               img="/img/Gaming.png"
             ></Habit>
             <Habit
               className="activity"
-              name="Reading"
+              name="Read"
               img="/img/Book.png"
             ></Habit>
             <Habit
               className="activity"
-              name="Chatting"
+              name="Chat"
               img="/img/Chat.png"
             ></Habit>
             <Habit
               className="activity"
-              name="Cleaning"
+              name="Clean"
               img="/img/Clean.png"
             ></Habit>
             <Habit
@@ -43,7 +44,7 @@ export default function Habits() {
             ></Habit>
             <Habit
               className="activity"
-              name="Memeing"
+              name="Look at Memes"
               img="/img/Meme.png"
             ></Habit>
             <Habit
@@ -53,49 +54,49 @@ export default function Habits() {
             ></Habit>
             <Habit
               className="activity"
-              name="Listening"
+              name="Music"
               img="/img/Music.png"
             ></Habit>
           </div>
           <div class="row1">
             <Habit
               className="activity"
-              name="Organizing"
+              name="Organize"
               img="/img/Organize.png"
             ></Habit>
             <Habit
               className="activity"
-              name="Napping"
+              name="Nap"
               img="/img/Sleep.png"
             ></Habit>
             <Habit
               className="activity"
-              name="Snacking"
+              name="Snack"
               img="/img/Snack.png"
             ></Habit>
             <Habit
               className="activity"
-              name="Walking"
+              name="Walk"
               img="/img/Walk.png"
             ></Habit>
             <Habit
               className="activity"
-              name="Washing"
+              name="Wash Hands"
               img="/img/WashHands.png"
             ></Habit>
             <Habit
               className="activity"
-              name="Drinking"
+              name="Get Water"
               img="/img/Water.png"
             ></Habit>
             <Habit
               className="activity"
-              name="Youtubing"
+              name="Youtube"
               img="/img/youtube.png"
             ></Habit>
             <Habit
               className="activity"
-              name="Drawing"
+              name="Draw"
               img="/img/Draw.png"
             ></Habit>
           </div>
