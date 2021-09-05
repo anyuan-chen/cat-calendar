@@ -8,9 +8,7 @@
   background-image: url("../backgrounds/gradient.png");
   height: 100vh;
 }
-.class {
-  background-color: white;
-}
+
 .header {
   font-weight: bold;
   text-align: center;
