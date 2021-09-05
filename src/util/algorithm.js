@@ -1,17 +1,64 @@
 const schedule = (habits, tasks) => {
-    //we will divide the day into 15 minute blocks lMFAO
+  //we will divide the day into 15 minute blocks lMFAO
 
-    let schedule = [];
+  let schedule = [];
 
-    let length = 96;
-    for (let i = 0; i < 96; i++){
-        schedule.push(false);
+  for (let i = 0; i < 96; i++) {
+    schedule.push("");
+  }
+  console.log(tasks);
+  for (const task of tasks) {
+    console.log(task);
+    let parts = task.startTime.split(":");
+    let taskStart = parseInt(parts[0]) * 4;
+    if (parts[1] == "15") {
+      taskStart++;
+    } else if (parts[1] == "30") {
+      taskStart += 2;
+    } else if (parts[1] == "45") {
+      taskStart += 3;
     }
-    for (const task in tasks){
-       let taskStart = 
+
+    let endParts = task.endTime.split(":");
+    let taskEnd = parseInt(endParts[0]) * 4;
+    if (endParts[1] === "15") {
+      taskEnd++;
+    } else if (endParts[1] === "30") {
+      taskEnd += 2;
+    } else if (endParts[1] === "45") {
+      taskEnd += 3;
     }
 
-}
+    for (let i = taskStart; i < taskEnd; i++) {
+      schedule[i] = task.task;
+    }
+  }
 
+  //look if ur reading this logic wash ur eyes
+  //cuz ur about to just straight up not have a good time ngl
+
+  for (const habit of habits) {
+    let number = Math.floor(Math.random() * 96);
+    while (schedule[number] !== "") {
+      number = Math.floor(Math.random() * 96);
+    }
+    schedule[number] = habit.name;
+  }
+
+  return schedule;
+};
+
+// const habits = [
+//   { name: "water" },
+//   { name: "exercise" },
+//   { name: "meditation" },
+// ];
+
+// const tasks = [
+//   { task: "ski", startTime: "9:00", endTime: "11:00" },
+//   { task: "eat", startTime: "11:15", endTime: "11:45" },
+// ];
+
+// console.log(schedule(habits, tasks));
 
 module.exports = schedule;
