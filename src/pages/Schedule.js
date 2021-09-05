@@ -19,7 +19,7 @@ export default function Schedule() {
     if (tasks && habits) {
       scheduleArray = algorithm(habits, tasks);
     }
-    scheduleArray = scheduleArray.slice(8, 20);
+    scheduleArray = scheduleArray.slice(8, 21);
     setSchedule(scheduleArray);
     console.log(scheduleArray);
   }, []);
@@ -28,7 +28,6 @@ export default function Schedule() {
     <div>
       <Navbar></Navbar>
       <div class="iNeedAChiropractorSoBad">
-        {/* <img src="/img/background.png" alt="background" /> */}
         <h1 id="yourSchedule">Your Schedule</h1>
         <div>
           {/* {<img
@@ -37,17 +36,25 @@ export default function Schedule() {
             alt="pink rectangle path"
           />} */}
           <div id="baseContainer">
-            <div id="textInstructions">
+            <div class="times" id="rowOneSchedule">
               {schedule.map((task) => {
                 if (task === "") {
-                  return <li></li>;
+                  return (
+                    <h3 input type="text">
+                      free time
+                    </h3>
+                  );
                 } else {
-                  return <li>{task}</li>;
+                  return (
+                    <h3 input type="text">
+                      {task}
+                    </h3>
+                  );
                 }
               })}
             </div>
-            <img id="dottedLine" src="/img/dotted line.png" alt="dotted line" />
-            <div id="times">
+            <img id="rowTwoSchedule" src="/img/dotted line.png" alt="dotted line" />
+            <div class="times" id="rowThreeSchedule">
               <h3 input type="text">
                 8AM
               </h3>
