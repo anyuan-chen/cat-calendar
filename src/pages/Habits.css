@@ -14,18 +14,20 @@
 .header {
   font-weight: bold;
   text-align: center;
-  border: solid red;
   max-height: 4vh;
   padding: 0px;
 }
 
 .header2 {
-  justify-content:center;
+  justify-content: center;
   text-align: center;
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
   margin-top: 10%;
 >>>>>>> 6af9e46911bfa60d8879ae5effe608770de5757f
+=======
+>>>>>>> 86cb0456a7a6535d68640036f1d8091e5ce84417
   font-weight: normal;
 }
 
