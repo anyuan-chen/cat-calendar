@@ -42,21 +42,6 @@ h1 {
   background: "../img/background.png";
 }
 
-#eventsSubmitButton {
-  background-color: #ff9c9c;
-  color: white;
-  font-family: Poppins;
-  border-radius: 0.5rem;
-  font-weight: bold;
-  font-size: large;
-  border: none;
-  margin-top: 50px;
-  padding-left: 50px;
-  padding-right: 50px;
-  padding-top: 0;
-  text-align: center;
-}
-
 #Footer {
   bottom: 0;
   top: 100%;
@@ -67,6 +52,6 @@ h1 {
 }
 
 .icbm {
-  padding: 25px;
+  padding: 35px;
   max-width: 300px;
 }
