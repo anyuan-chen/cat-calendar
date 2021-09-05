@@ -13,6 +13,10 @@ td {
   font-family: Mondapick;
 }
 
+th {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
 .containerEvents {
   position: absolute;
   top: 10%;
@@ -40,6 +44,8 @@ h1 {
 #eventsTextInput {
   border-radius: 0.25rem;
   background: "../img/background.png";
+  font-family: Poppins;
+  border-color: grey;
 }
 
 #Footer {
@@ -51,6 +57,9 @@ h1 {
   flex-direction: column;
 }
 
+.PICNICS {
+  font-family: Poppins;
+}
 .icbm {
   padding: 35px;
   max-width: 300px;

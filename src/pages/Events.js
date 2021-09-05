@@ -88,19 +88,28 @@ export default function Events() {
               </tr>
               {prevTasks.map((task) => {
                 return (
-                  <tr>
-                    <th>{task.task}</th>
-                    <th>{task.startTime}</th>
-                    <th>{task.endTime}</th>
+                  <tr >
+                    <th className="PICNICS">{task.task}</th>
+                    <th className="PICNICS">{task.startTime}</th>
+                    <th className="PICNICS">{task.endTime}</th>
                   </tr>
                 );
               })}
             </tbody>
           </table>
-          <input class="icbm" type="image" src={process.env.PUBLIC_URL + "/img/Submit_button.png"} alt="Submit"></input>
+          <input
+            class="icbm"
+            type="image"
+            src={process.env.PUBLIC_URL + "/img/Submit_button.png"}
+            alt="Submit"
+          ></input>
         </div>
       </form>
-      <img id="throwitback" src={process.env.PUBLIC_URL + "/img/background.png"} alt="background"/>
+      <img
+        id="throwitback"
+        src={process.env.PUBLIC_URL + "/img/background.png"}
+        alt="background"
+      />
       <Footer id="Footer"></Footer>
     </div>
   );
