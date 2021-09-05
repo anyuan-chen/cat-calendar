@@ -10,10 +10,12 @@ export default function Habits() {
       <Navbar></Navbar>
       <body class="body">
         <h1 class="gnome">Habit Builder</h1>
-        <h2 class="header">
-          Select a few of our pre-created habits to add to your schedule!
-          <h3 class="header2">Each habit will take up an hour.</h3>
-        </h2>
+        <div class="central-utility-mechanism">
+          <h2 class="header">
+            Select a few of our pre-created habits to add to your schedule!
+          </h2>
+          <h2 class="header2">Each habit will take up an hour.</h2>
+        </div>
         
         <div class="selection">
           <div class="row1">

@@ -19,7 +19,7 @@ export default function Schedule() {
     if (tasks && habits) {
       scheduleArray = algorithm(habits, tasks);
     }
-    scheduleArray = scheduleArray.slice(32, 80);
+    scheduleArray = scheduleArray.slice(8, 20);
     setSchedule(scheduleArray);
     console.log(scheduleArray);
   }, []);
