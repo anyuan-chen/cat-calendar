@@ -8,6 +8,9 @@ export default function Habits() {
     return (
         <div>
             <Navbar></Navbar>
+            <div>
+                <img src="/img/background.png" alt="background"/>
+            </div>
             <body class="body">
                 <h1 class="gnome">Habit Builder</h1>
                 <h2 class="header">Select a few of our pre-created habits to add to your schedule!</h2>
