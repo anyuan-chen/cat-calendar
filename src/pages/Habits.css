@@ -16,11 +16,6 @@
   padding: 0px;
 }
 
-.header2 {
-  justify-content:center;
-  text-align: center;
-  font-weight: normal;
-}
 
 .selection {
   display: flex;
