@@ -4,7 +4,7 @@ import "./Habit.css";
 export default function Habit(props) {
   const [selected, setSelected] = useState(false);
   const POKEMONGO = () => {
-    setSelected(!selected);
+    setSelected(true);
     if (!localStorage.habits) {
       localStorage.setItem("habits", JSON.stringify([]));
     }
