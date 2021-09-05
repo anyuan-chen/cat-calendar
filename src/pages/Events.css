@@ -50,3 +50,8 @@ h1 {
   padding-top: 0;
   text-align: center;
 }
+
+#pepelaugh{
+  display: flex;
+  flex-direction: column;
+}
