@@ -47,7 +47,7 @@ export default function Events() {
       <Navbar></Navbar>
       <form onSubmit={addToLocalStorage}>
         <div className="containerEvents">
-          <h1>Event Builder</h1>
+          <h1 class="sigma">Event Builder</h1>
           <table>
             <colgroup>
               <col class="w"></col>
@@ -97,9 +97,7 @@ export default function Events() {
               })}
             </tbody>
           </table>
-          <button id="eventsSubmitButton" type="submit">
-            Add
-          </button>
+          <input class="icbm" type="image" src={process.env.PUBLIC_URL + "/img/Submit_button.png"} alt="Submit"></input>
         </div>
       </form>
       <Footer id="Footer"></Footer>

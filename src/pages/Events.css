@@ -31,6 +31,12 @@ h1 {
   font-family: Mondapick;
 }
 
+.sigma {
+  text-align: center;
+  font-weight: bold;
+  font-size: 400%;
+}
+
 #eventsTextInput {
   border-radius: 0.25rem;
   background: "../img/background.png";
@@ -58,4 +64,9 @@ h1 {
 #pepelaugh {
   display: flex;
   flex-direction: column;
+}
+
+.icbm {
+  padding: 25px;
+  max-width: 300px;
 }
