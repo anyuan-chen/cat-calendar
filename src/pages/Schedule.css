@@ -1,5 +1,3 @@
-.iNeedAChiropractorSoBad {
-}
 #yourSchedule {
     position: absolute;
     top: 160px;
@@ -7,7 +5,16 @@
     background-color: transparent;
 }
 #dottedLine {
-    position:absolute;
-    top: 50%;
-    
+    position: absolute;
+    top: 52.4%;
+    left: 3.305%;
+    z-index: 1;
+    width: 93vw;
+    height:6px;
+    object-fit: fill;
+}
+#path {
+    position: absolute;
+    top: 30%;
+    left: 3.3%
 }
