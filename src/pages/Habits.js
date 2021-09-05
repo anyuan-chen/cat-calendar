@@ -3,7 +3,7 @@ import Navbar from "../components/Navbar";
 import Habit from "../components/Habit";
 import "./Habits.css";
 import Footer from "../components/Footer";
-//
+
 export default function Habits() {
   return (
     <div>
@@ -35,9 +35,7 @@ export default function Habits() {
             <Habit className="activity" name="Youtubing" img="/img/youtube.png"></Habit>
             <Habit className="activity" name="Drawing" img="/img/Draw.png"></Habit>
           </div>
-          
         </div>
-        {/*<button type="submit">Next</button> */}
         <Footer></Footer>
       </body>
     </div>
