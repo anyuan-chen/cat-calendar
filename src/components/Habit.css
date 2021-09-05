@@ -16,6 +16,7 @@
 
 #buttLabel {
   color: rgb(46, 22, 22);
+  text-align: center;
 }
 
 .clicked {

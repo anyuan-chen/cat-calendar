@@ -31,7 +31,7 @@ export default function Habits() {
             <Habit name="Snacking" img="/img/Snack.png"></Habit>
             <Habit name="Walking" img="/img/Walk.png"></Habit>
             <Habit name="Washing Hands" img="/img/WashHands.png"></Habit>
-            <Habit name="Drinking" img="/img/Water.png"></Habit>
+            <Habit name="Water" img="/img/Water.png"></Habit>
             <Habit name="Youtubing" img="/img/youtube.png"></Habit>
             <Habit name="Drawing" img="/img/Draw.png"></Habit>
           </div>
