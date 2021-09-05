@@ -50,5 +50,5 @@
 .central-utility-mechanism {
   display: flex;
   justify-content: center;
-  padding: 10px;
+  flex-direction: column;
 }
