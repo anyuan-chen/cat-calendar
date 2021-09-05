@@ -13,7 +13,7 @@ export default function Habits() {
                 <h2 class="header">Select a few of our pre-created habits to add to your schedule!</h2>
                 <h2 class="header">Each habit will take up 15 minutes.</h2>
                 <div class="selection">
-                    <Habit name="Gaming" img="../public/img/Gaming.png"></Habit>
+                    <Habit name="Gaming" img="/img/Gaming.png"></Habit>
                     <Habit></Habit>
                     <Habit></Habit>
                     <Habit></Habit>
