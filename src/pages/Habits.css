@@ -13,10 +13,15 @@
   font-weight: bold;
   text-align: center;
   max-height: 4vh;
-  padding: 0px;
+  padding: 2px;
 }
 
-
+.header2 {
+  font-weight: normal;
+  text-align: center;
+  max-height: 4vh;
+  padding: 2px;
+}
 .selection {
   display: flex;
   flex-direction: column;
@@ -41,5 +46,5 @@
 .central-utility-mechanism {
   display: flex;
   justify-content: center;
-  flex-direction: column;
+  flex-flow: row wrap;
 }
