@@ -20,5 +20,7 @@
     left: 3.3%
 }
 #times {
-    
+    position:absolute;
+    display: inline;
+    text-align:center;
 }
