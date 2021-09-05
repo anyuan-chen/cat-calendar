@@ -3,31 +3,17 @@ const schedule = (habits, tasks) => {
 
   let schedule = [];
 
-  for (let i = 0; i < 96; i++) {
+  for (let i = 0; i < 24; i++) {
     schedule.push("");
   }
   console.log(tasks);
   for (const task of tasks) {
     console.log(task);
     let parts = task.startTime.split(":");
-    let taskStart = parseInt(parts[0]) * 4;
-    if (parts[1] === "15") {
-      taskStart++;
-    } else if (parts[1] === "30") {
-      taskStart += 2;
-    } else if (parts[1] === "45") {
-      taskStart += 3;
-    }
+    let taskStart = parseInt(parts[0]);
 
     let endParts = task.endTime.split(":");
-    let taskEnd = parseInt(endParts[0]) * 4;
-    if (endParts[1] === "15") {
-      taskEnd++;
-    } else if (endParts[1] === "30") {
-      taskEnd += 2;
-    } else if (endParts[1] === "45") {
-      taskEnd += 3;
-    }
+    let taskEnd = parseInt(endParts[0]);
 
     for (let i = taskStart; i < taskEnd; i++) {
       schedule[i] = task.task;
@@ -39,8 +25,8 @@ const schedule = (habits, tasks) => {
 
   for (const habit of habits) {
     while (true) {
-      let decision = Math.floor(Math.random() * 48) + 32;
-      if (schedule[decision]) {
+      let decision = Math.floor(Math.random() * 12 + 8);
+      if (schedule[decision] === "") {
         schedule[decision] = habit.name;
         break;
       }
