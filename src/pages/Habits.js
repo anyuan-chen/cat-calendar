@@ -13,7 +13,7 @@ export default function Habits() {
         <div class="central-utility-mechanism">
           <h2 class="header">
             Select a few of our pre-created habits to add to your schedule! Each
-            habit will take up an hour.
+            habit will take up to an hour.
           </h2>
           {/* <h2 class="header2">Each habit will take up an hour.</h2> */}
         </div>
