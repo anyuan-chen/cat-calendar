@@ -29,14 +29,22 @@ export default function Schedule() {
       <Navbar></Navbar>
       <img id="dottedLine" src="/img/dotted line.png" alt="dotted line" />
       <div id="kittycatcat">
-        <marquee id="scrolling" behaviour="scroll" direction="right">
-        <img id="cat" src="https://cdn.discordapp.com/attachments/880523574975299684/884139799261368330/hardcodedCatSchedule.png" alt="Pusheen the Cat walking"/>
+        <marquee
+          id="scrolling"
+          behaviour="scroll"
+          direction="right"
+          scrollamount="1"
+        >
+          <img
+            id="cat"
+            src="https://cdn.discordapp.com/attachments/880523574975299684/884139799261368330/hardcodedCatSchedule.png"
+            alt="Pusheen the Cat walking"
+          />
         </marquee>
       </div>
       <div class="iNeedAChiropractorSoBad">
         <h1 id="yourSchedule">Your Schedule</h1>
         <div id="largerContainer">
-
           <div id="baseContainer">
             <div class="times" id="rowOneSchedule">
               {schedule.map((task) => {
@@ -55,7 +63,7 @@ export default function Schedule() {
                 }
               })}
             </div>
-            
+
             <div class="times" id="rowThreeSchedule">
               <h3 input type="text">
                 8AM
