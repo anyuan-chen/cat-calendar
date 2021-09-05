@@ -46,7 +46,7 @@ export default function Habits() {
             ></Habit>
             <Habit
               className="activity"
-              name="Look at Memes"
+              name="Memes"
               img="/img/Meme.png"
             ></Habit>
             <Habit

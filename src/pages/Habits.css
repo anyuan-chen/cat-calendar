@@ -22,9 +22,13 @@
 .header2 {
   justify-content:center;
   text-align: center;
-  font-weight: lighter;
+<<<<<<< HEAD
+
   margin-top: 10%;
-  border: solid red;
+
+=======
+  font-weight: normal;
+>>>>>>> fa560b783e4eca6e9a4b4200d6eb980b11a7fbca
 }
 
 .selection {
@@ -32,11 +36,13 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  padding-bottom: 100px;
 }
 
 .row1 {
-  display: flex;
-  flex-direction: row;
+  width: 70vw;
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
 }
 
 .activity {
@@ -49,6 +55,5 @@
 .central-utility-mechanism {
   display: flex;
   justify-content: center;
-  padding-left: 70px;
-  padding-right: 70px;
+  padding: 10px;
 }
