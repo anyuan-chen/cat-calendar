@@ -27,6 +27,7 @@ export default function Schedule() {
   return (
     <div>
       <Navbar></Navbar>
+      <img id="dottedLine" src="/img/dotted line.png" alt="dotted line" />
       <div class="iNeedAChiropractorSoBad">
         <h1 id="yourSchedule">Your Schedule</h1>
         <div id="largerContainer">
@@ -49,7 +50,7 @@ export default function Schedule() {
                 }
               })}
             </div>
-            <img id="rowTwoSchedule" src="/img/dotted line.png" alt="dotted line" />
+            
             <div class="times" id="rowThreeSchedule">
               <h3 input type="text">
                 8AM

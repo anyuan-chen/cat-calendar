@@ -6,17 +6,12 @@
 } */
 #dottedLine {
   position: absolute;
-  top: 52.4%;
-  left: 4%;
+  top: 43.4%;
+  left: 5%;
   z-index: 1;
-  width: 93vw;
+  width: 90vw;
   height: 6px;
   object-fit: fill;
-}
-#path {
-  position: absolute;
-  top: 30%;
-  left: 3.3%;
 }
 
 .times {
@@ -59,7 +54,7 @@
   grid-row-gap: 50px;
 }
 #largerContainer {
-  width: 80vw;
+  width: 90vw;
   height: 40vh;
   display: flex;
   align-items: center;
