@@ -22,6 +22,7 @@
   grid-row-start: 1;
   grid-row-end: 2;
   font-size: small;
+  font-family: Poppins;
 }
 /*#rowTwoSchedule {
   grid-row-start: 2;
@@ -30,6 +31,7 @@
 #rowThreeSchedule {
   grid-row-start: 3;
   grid-row-end: 4;
+  font-family:  Mondapick, sans-serif;
 }
 
 /* .times > * {
@@ -39,6 +41,7 @@
 } */
 .times {
   font-weight: normal; /*i want fonts but idk how*/
+  text-align:center;
 }
 
 .iNeedAChiropractorSoBad {
@@ -61,7 +64,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #FEEEEE;
+  background-color: #feeeee;
   border-radius: 20px;
 }
 
@@ -72,10 +75,14 @@
 
 #kittycatcat {
   position: absolute;
-  min-width:90vw;
-  top:49.9%;
-  z-index:10;
-  left: 5%;
+  min-width: 85vw;
+  top: 45.9%;
+  z-index: 10;
+  left: 7.33%;
+}
+
+#cat {
+  min-height :17vh;
 }
 /* 
 #textInstructions {
