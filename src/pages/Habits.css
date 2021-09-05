@@ -1,5 +1,6 @@
 .gnome {
   text-align: center;
+  font-weight: bold;
   font-size: 400%;
 }
 .body {
@@ -14,6 +15,11 @@
 .header {
   font-weight: bold;
   text-align: center;
+}
+
+.header2 {
+  text-align: center;
+  font-weight: lighter;
 }
 
 .selection {
