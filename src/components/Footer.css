@@ -2,11 +2,11 @@
   margin: 0;
   padding: 0;
   background-color: #feeef6;
-  bottom:0px;
-  position:absolute;
+  bottom: 0px;
+  position: fixed;
   text-align: center;
-  min-width:100vw;
-  max-height:70px;
+  min-width: 100vw;
+  max-height: 70px;
 }
 
 .copyright {
