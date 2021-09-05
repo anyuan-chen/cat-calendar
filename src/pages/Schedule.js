@@ -1,9 +1,16 @@
-import React from "react";
+import React, {useEffect} from "react";
 import Navbar from "../components/Navbar";
 import "./Schedule.css";
 import Footer from "../components/Footer";
+import {algorithm} from "../util/algorithm"
 
 export default function Schedule() {
+  useEffect(() => {
+    const tasks = JSON.parse(localStorage.tasks);
+    const habits = JSON.parse(localStorage.habits);
+    const scheduleArray = algorithm(habits, tasks);
+    
+  }, [])
   return (
     <div>
         <Navbar></Navbar>
