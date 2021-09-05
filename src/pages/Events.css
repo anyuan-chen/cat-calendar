@@ -13,12 +13,16 @@ td {
   font-family: Mondapick;
 }
 
-.container {
+.containerEvents {
+  top: 10%;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   padding-top: 5em;
+}
+#backgroundarooni {
+  width: 100vw;
 }
 .form {
   display: flex;
