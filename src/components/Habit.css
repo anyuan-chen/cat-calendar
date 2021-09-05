@@ -1,16 +1,18 @@
 * {
-   
 }
 #habit {
-    border: none;
-    background: transparent;
+  border: none;
+  background: transparent;
+  border-radius: 100%;
 }
 
 #habit:hover {
-    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.199), 0 17px 50px 0 rgba(0,0,0,0.19);
-    background-color: #97784d;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.199),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  background-color: #97784d;
+  border-radius: 50%;
 }
 
 #buttLabel {
-    color: black;
+  color: rgb(46, 22, 22);
 }

@@ -9,17 +9,6 @@ export default function Habit(props) {
             <img class="icon" src={props.img} alt="missing"/> 
         </button>
         <p id="buttLabel">{props.name}</p>
-        
-    {/*
-    the thing that was here before I experiment
-    <tr>
-        <td>{props.name}</td>
-        <td>{props.img}</td>
-    </tr>
-
-    <img src={process.env.PUBLIC_URL + props.img} alt="missing"/>
-    */}
-
     </div>
   );
 }

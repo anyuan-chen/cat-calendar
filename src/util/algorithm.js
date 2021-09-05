@@ -11,11 +11,11 @@ const schedule = (habits, tasks) => {
     console.log(task);
     let parts = task.startTime.split(":");
     let taskStart = parseInt(parts[0]) * 4;
-    if (parts[1] == "15") {
+    if (parts[1] === "15") {
       taskStart++;
-    } else if (parts[1] == "30") {
+    } else if (parts[1] === "30") {
       taskStart += 2;
-    } else if (parts[1] == "45") {
+    } else if (parts[1] === "45") {
       taskStart += 3;
     }
 
