@@ -4,6 +4,7 @@ import Home from "./pages/Home";
 import Schedule from "./pages/Schedule";
 import Habits from "./pages/Habits";
 import Events from "./pages/Events";
+import Instructions from "./pages/Instructions";
 
 function App() {
   return (
@@ -17,6 +18,11 @@ function App() {
         ></Route>
         <Route exact path="/habits" render={() => <Habits></Habits>}></Route>
         <Route exact path="/events" render={() => <Events></Events>}></Route>
+        <Route
+          exact
+          path="/instructions"
+          render={() => <Instructions></Instructions>}
+        ></Route>
       </Switch>
     </Router>
   );
