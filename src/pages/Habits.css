@@ -19,7 +19,7 @@
 
 .header2 {
   text-align: center;
-  font-weight: lighter;
+  font-weight: normal;
 }
 
 .selection {
@@ -44,6 +44,5 @@
 .central-utility-mechanism {
   display: flex;
   justify-content: center;
-  padding-left: 70px;
-  padding-right: 70px;
+  padding: 10px;
 }
