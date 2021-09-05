@@ -14,21 +14,14 @@
 .header {
   font-weight: bold;
   text-align: center;
-  border: solid red;
   max-height: 4vh;
   padding: 0px;
 }
 
 .header2 {
-  justify-content:center;
+  justify-content: center;
   text-align: center;
-<<<<<<< HEAD
-
-  margin-top: 10%;
-
-=======
   font-weight: normal;
->>>>>>> fa560b783e4eca6e9a4b4200d6eb980b11a7fbca
 }
 
 .selection {
