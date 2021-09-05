@@ -22,6 +22,7 @@
   grid-row-start: 1;
   grid-row-end: 2;
   font-size: small;
+  font-family: Poppins;
 }
 /*#rowTwoSchedule {
   grid-row-start: 2;
@@ -62,7 +63,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #FEEEEE;
+  background-color: #feeeee;
   border-radius: 20px;
 }
 
@@ -73,9 +74,9 @@
 
 #kittycatcat {
   position: absolute;
-  min-width:90vw;
-  top:49.9%;
-  z-index:10;
+  min-width: 90vw;
+  top: 49.9%;
+  z-index: 10;
   left: 5%;
 }
 /* 
