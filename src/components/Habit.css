@@ -1,10 +1,11 @@
 #habit {
   border: none;
   border-radius: 100%;
-  padding: 10px;
+  background-color: #96774c;
+  padding: 2px;
 }
 #habit:hover {
-  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.295),
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.199),
     0 17px 50px 0 rgba(0, 0, 0, 0.19);
   background-color: #96774c;
   border-radius: 100%;
@@ -16,7 +17,7 @@
   text-align: center;
 }
 .clicked {
-  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.295),
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.199),
     0 17px 50px 0 rgba(0, 0, 0, 0.19);
   background-color: #96774c;
   color: rgb(46, 22, 22);
