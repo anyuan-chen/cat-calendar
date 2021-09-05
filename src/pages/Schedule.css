@@ -1,22 +1,47 @@
-
-#yourSchedule {
-    position: absolute;
-    top: 160px;
-    left: 43.5%;
-    background-color: transparent;
-}
-#dottedLine {
-    position: absolute;
-    top: 52.4%;
-    left: 3.305%;
-    z-index: 1;
-    width: 93vw;
-    height:6px;
-    object-fit: fill;
+/* #yourSchedule {
+  position: absolute;
+  top: 160px;
+  left: 43.5%;
+  background-color: transparent;
+} */
+/* #dottedLine {
+  position: absolute;
+  top: 52.4%;
+  left: 3.305%;
+  z-index: 1;
+  width: 93vw;
+  height: 6px;
+  object-fit: fill;
 }
 #path {
-    position: absolute;
-    top: 30%;
-    left: 3.3%
+  position: absolute;
+  top: 30%;
+  left: 3.3%;
+} */
+
+#times {
+  display: flex;
+  flex-direction: row;
 }
 
+#times > * {
+  --tw-space-x-reverse: 0;
+  margin-right: calc(3rem * var(--tw-space-x-reverse));
+  margin-left: calc(3rem * calc(1 - var(--tw-space-x-reverse)));
+}
+
+.iNeedAChiropractorSoBad {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: url("../backgrounds/gradient.png");
+}
+
+#baseContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
