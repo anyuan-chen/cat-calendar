@@ -5,6 +5,7 @@ import Footer from "../components/Footer";
 import algorithm from "../util/algorithm";
 
 export default function Schedule() {
+  const [schedule, setSchedule] 
   useEffect(() => {
     let tasks;
     if (localStorage.tasks) {
@@ -18,6 +19,7 @@ export default function Schedule() {
     if (tasks && habits) {
       scheduleArray = algorithm(habits, tasks);
     }
+
   }, []);
 
   return (
