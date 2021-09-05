@@ -24,6 +24,9 @@
 .row1 {
   display: flex;
   flex-direction: row;
-  align-items: center;
-  justify-content: center;
+}
+
+.activity {
+  padding-left: 20px;
+  padding-right: 20px;
 }
