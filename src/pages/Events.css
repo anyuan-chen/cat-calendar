@@ -41,7 +41,7 @@ input {
   background: white;
 }
 
-button {
+#button {
   background-color: #ff9c9c;
   color: white;
   font-family: Poppins;
