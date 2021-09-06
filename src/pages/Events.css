@@ -46,6 +46,7 @@ h1 {
   background: "../img/background.png";
   font-family: Poppins;
   border-color: grey;
+  text-align: center;
 }
 
 #Footer {
