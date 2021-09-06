@@ -64,14 +64,16 @@ export default function Events() {
                 <th>
                   <input
                     type="text"
+                    placeholder="Type your event!"
                     value={task}
                     onChange={(e) => setTask(e.target.value)}
                     id="eventsTextInput"
                   ></input>
                 </th>
                 <th>
-                  <input
+                  <input 
                     type="text"
+                    placeholder="00:00"
                     value={startTime}
                     onChange={(e) => setStartTime(e.target.value)}
                     id="eventsTextInput"
@@ -80,6 +82,7 @@ export default function Events() {
                 <th>
                   <input
                     type="text"
+                    placeholder="00:00"
                     value={endTime}
                     onChange={(e) => setEndTime(e.target.value)}
                     id="eventsTextInput"
